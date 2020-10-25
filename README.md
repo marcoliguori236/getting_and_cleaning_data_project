@@ -34,5 +34,9 @@ There are 3 files (other than the README.md) in this repository: an R script (**
 2. download the data set presented on the instructions, 
 3. create a folder within 'data' folder callled 'UCI HAR Dataset' where the unzipped file will be stored.
 4. load the following .txt files and create a separate dataframe for each file: **X_train.txt**, **y _train.txt**, **X_test.txt**, **y_test.txt**, **subject_train.txt**,
-**subject_test.txt**, **features.txt** and **activity_labels.txt**.  This comprise the 'features' and ''
+**subject_test.txt**, **features.txt** and **activity_labels.txt**.  
+5. Merge all dataframes to create a unique dataframe.
+6. Select only the measures (or columns) that indicate a mean or standard deviation measure of the respective variable or feature.
+7. Rename columns for better interpretability and adjust better to the tidy data norms.
+8. Finally, create a new dataframe out of the already tidy and merged dataframe that presents the average of each variable for grouped by subject then activity.
 
