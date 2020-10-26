@@ -46,3 +46,13 @@ There are 3 files (other than the README.md) in this repository: an R script (**
 
 * The tidy_data.txt:
 1. Is the output of the final line of code of run_analysis.R
+
+## How to reproduce this project as intended
+
+1. Open R Studio and create a new directory
+2. Make sure within R Studio than your current working directory is the one you just created
+3. Download this project as a .zip from the green button 'Code' at the main site of this repository. Unzip it wherever you like.
+4. On R Studio, click 'Open File' and select the run_analysis.R from the folder you just unzipped.
+5. Make sure you have dplyr installed in your environment. If you don't, add install.packages("dplyr") to the console or the script.
+6. Source the script by clicking source at the top right of your script window.
+7. The data sets that are mentioned and are solutions to this project are named: ''df_full', 'df_full_mean' which correspond to a merged full tidy dataset, and a also tidy subset of this same dataframe (tidy_data.txt) respectively. You can look at them at the top right window of your R Studio environment by clicking on them, they will show in the top left window of the screen (where the scripts are found).
